@@ -5,6 +5,7 @@ import LinkedInIcon from '../images/linkedin.svg';
 import GoogleIcon from '../images/google.svg';
 import FadedLogo from '../images/faded-logo.svg';
 import Logo from '../images/logo.svg';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 import './Footer.scss';
 
 const Footer = () => {
@@ -24,7 +25,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-twitter-container">
-                
+                    <TwitterTweetEmbed className="footer-tweet" tweetId={'1238093909596700672'} />
                 </div>
             </div>
         </footer>
