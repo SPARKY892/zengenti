@@ -33,7 +33,7 @@ const Cards = () => {
                 </div>
                 <div className="card3-container">
                     <CardImage3 className="card3-image"/>
-                    <div className="card-overlay">
+                    <div className="card-detail">
                         <div className="card-sub-container">
                             <h5 className="card-header">Chat to a student</h5>
                             <ArrowIcon />
@@ -43,7 +43,7 @@ const Cards = () => {
                 </div>
                 <div className="card4-container">
                     <CardImage4 className="card4-image"/>
-                    <div className="card-overlay">
+                    <div className="card-detail">
                         <div className="card-sub-container">
                             <h5 className="card-header">Support</h5>
                             <ArrowIcon />
@@ -53,7 +53,7 @@ const Cards = () => {
                 </div>
                 <div className="card5-container">
                     <CardImage5 className="card5-image"/>
-                    <div className="card-overlay">
+                    <div className="card-detail">
                         <div className="card-sub-container">
                             <h5 className="card-header">Life in Ludlow</h5>
                             <ArrowIcon />
