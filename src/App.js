@@ -14,6 +14,7 @@ const App = () => {
         <Cards />
         <Banner />
         <Upcoming />
+        <Footer />
     </div>
   );
 }
