@@ -26,10 +26,6 @@
     background-color: white;
 }
 
-.nav-item-container {
-    margin-top: 30%;
-}
-
 .nav-item {
     display: flex;
     flex-direction: column;
@@ -60,7 +56,7 @@
     cursor: pointer;
 }
 
-h5 {
+.nav-item h5 {
   margin: 0;
 }
 
@@ -75,6 +71,7 @@ h5 {
     width: auto;
     height: auto;
     left: auto;
+    
   }
 
   .nav-container.active {
@@ -84,12 +81,11 @@ h5 {
   .nav-item-container {
     display: flex;
     margin-top: 0;
-    height: 24px;
   }
   
   .nav-item {
-    margin-top: 0;
     padding: 0 20px;
+    overflow: hidden;
   }
 
   .nav-item.nav-search {

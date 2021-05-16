@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-twitter-container">
-
+                
                 </div>
             </div>
         </footer>

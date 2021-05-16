@@ -25,10 +25,6 @@
     color: #fff;
 }
 
-.banner-btn-background {
-    padding: 1px;
-}
-
 .banner-btn {
     width: 260px;
     height: 64px;
@@ -36,7 +32,9 @@
     border-image-slice: 1;
     border-width: 1px;
     background-color: transparent;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-btn h5 {

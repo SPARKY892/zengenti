@@ -64,6 +64,9 @@
     border-image-slice: 1;
     border-width: 1px;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-img {

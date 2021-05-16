@@ -1,3 +1,7 @@
+.upcoming-container {
+    padding: 0 80px;
+}
+
 .upcoming-header-container {
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,9 @@
     border-image-slice: 1;
     border-width: 1px;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .upcoming-sub-container {
@@ -21,8 +28,11 @@
 
 .upcoming-event-container {
     position: relative;
-    width: 400px;
-    height: 624px;
+    width: 100%;
+}
+
+.upcoming-image {
+    width: 100%;
 }
 
 .upcoming-date-container {
@@ -31,8 +41,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 176px;
+    width: 50%;
+    height: 40%;
     top: 0;
     background-color: #fff;
 }
@@ -60,17 +70,46 @@
 
 .upcoming-text {
     position: absolute;
-    top: 496px;
     left: 16px;
-    right: 16px;
-    width: 368px;
+    right: 16px;    
+    bottom: 32px;
     color: #fff;
     text-align: left;
     margin: 0;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
+    .upcoming-date-container {
+        width: 50%;
+        height: 30%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .upcoming-container {
         padding: 0 80px;
+    }
+
+    .upcoming-event-container {
+        position: relative;
+        width: 400px;
+        height: 624px;
+    }
+
+    .upcoming-date-container {
+        width: 180px;
+        height: 176px;
+    }
+
+    .upcoming-image {
+        width: 400px;
+        height: 624px;
+    }
+
+    .upcoming-text {
+        top: 496px;
+        left: 16px;
+        right: 16px;
+        width: 368px;
     }
 }
