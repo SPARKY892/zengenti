@@ -12,6 +12,13 @@ p {
   color: #333;
 }
 
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+}
+
 h5 {
   font-style: normal;
   font-weight: normal;

@@ -1,0 +1,72 @@
+.upcoming-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcoming-button {
+    width: 290px;
+    height: 64px;
+}
+
+.upcoming-sub-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.upcoming-event-container {
+    position: relative;
+    width: 400px;
+    height: 624px;
+}
+
+.upcoming-date-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 176px;
+    top: 0;
+    background-color: #fff;
+}
+
+.upcoming-date-day {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 0;
+    height: 64px;
+    color: #FF227F;
+}
+
+.upcoming-date-month {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+    height: 48px;
+}
+
+.upcoming-text {
+    position: absolute;
+    top: 496px;
+    left: 16px;
+    right: 16px;
+    width: 368px;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (min-width: 800px) {
+    .upcoming-container {
+        padding: 0 80px;
+    }
+}
