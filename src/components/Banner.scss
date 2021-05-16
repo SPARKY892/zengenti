@@ -1,8 +1,9 @@
 .banner-container {
-    margin-top: 104px;
+    margin-top: 50px;
     position: relative;
     width: 100%;
 }
+
 .banner-image {
     width: 100%;
 }
@@ -27,11 +28,13 @@
 .banner-text {
     text-align: center;
     color: #fff;
+    font-size: 14px;
+    line-height: 120%;
 }
 
 .banner-btn {
-    width: 260px;
-    height: 64px;
+    width: 150px;
+    height: 30px;
     border-image-source: linear-gradient(90deg, #00C2FF, #FF27C3);
     border-image-slice: 1;
     border-width: 1px;
@@ -43,9 +46,17 @@
 
 .banner-btn h5 {
     color: white;
+    font-size: 12px;
+    line-height: 120%;
 }
 
 @media screen and (min-width: 768px) {
+    .banner-container {
+        margin-top: 104px;
+        position: relative;
+        width: 100%;
+    }
+
     .banner-text {
         width: 60%;
         font-size: 26px;

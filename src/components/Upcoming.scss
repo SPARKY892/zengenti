@@ -1,5 +1,5 @@
 .upcoming-container {
-    padding: 0 80px;
+    padding: 0 5%;
 }
 
 .upcoming-header-container {
@@ -9,8 +9,8 @@
 }
 
 .upcoming-btn {
-    width: 290px;
-    height: 64px;
+    width: 110px;
+    height: 32px;
     border-image-source: linear-gradient(90deg, #00C2FF, #FF27C3);
     border-image-slice: 1;
     border-width: 1px;
@@ -24,11 +24,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 40px;
+    row-gap: 10px;
 }
 
 .upcoming-event-container {
     position: relative;
     width: 100%;
+    grid-column: 1/4;
 }
 
 .upcoming-image {
@@ -41,8 +43,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 40%;
+    width: 40%;
+    height: 30%;
     top: 0;
     background-color: #fff;
 }
@@ -83,9 +85,41 @@
         width: 200px;
         height: 50px;
     }
+
+    .upcoming-event-container {
+        grid-column: span 1;
+    }
+
+    .upcoming-date-container {
+        width: 50%;
+        height: 40%;
+        top: 0;
+    }
+    
+    .upcoming-date-day {
+        font-size: 56px;
+        line-height: 64px;
+        height: 64px;
+    }
+    
+    .upcoming-date-month {
+        font-size: 40px;
+        line-height: 48px;
+        height: 48px;
+    }
+    
+    .upcoming-text {
+        left: 16px;
+        right: 16px;    
+        bottom: 32px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+    .upcoming-container {
+        padding: 0 80px;
+    }
+    
     .upcoming-date-container {
         width: 50%;
         height: 30%;
@@ -98,10 +132,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .upcoming-container {
-        padding: 0 80px;
-    }
-
     .upcoming-event-container {
         position: relative;
         width: 400px;

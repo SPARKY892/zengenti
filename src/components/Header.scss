@@ -5,8 +5,8 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow-x: hidden;
 }
 
@@ -61,6 +61,13 @@
 }
 
 @media screen and (min-width: 960px) {
+  .header-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
   .nav-menu-icon {
     display: none;
   }
