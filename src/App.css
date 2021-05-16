@@ -25,3 +25,34 @@ h5 {
   font-size: 20px;
   line-height: 24px;
 }
+
+@media screen and (min-width: 768px) {
+  h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 120%;
+  }
+  
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

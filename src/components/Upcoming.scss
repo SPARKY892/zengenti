@@ -78,10 +78,22 @@
     margin: 0;
 }
 
+@media screen and (min-width: 768px) {
+    .upcoming-btn {
+        width: 200px;
+        height: 50px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .upcoming-date-container {
         width: 50%;
         height: 30%;
+    }
+
+    .upcoming-btn {
+        width: 290px;
+        height: 64px;
     }
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.scss';
-import {ReactComponent as HeroImage} from '../images/hero-image.svg';
+import HeroImage from '../images/hero-image.svg';
 
 const Hero = () => {
     return(
@@ -14,7 +14,7 @@ const Hero = () => {
                     <p className="hero-title">Student, BSc (Hons) Computer Games Design</p>
                     <button className="hero-btn"><h5>View student stories</h5></button>
                 </div>
-                <HeroImage className="hero-img" />
+                <img src={HeroImage} className="hero-img" alt="Hero" />
             </div>
         </React.Fragment>
     );

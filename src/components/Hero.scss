@@ -7,7 +7,8 @@
 .hero-container {
     padding: 0 5%;
     display: grid;
-    grid-gap: 40px;
+    column-gap: 40px;
+    row-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
 }
 
@@ -19,23 +20,24 @@
     align-self: center;
     
 }
+
 .hero-header {
     text-align: left;
-    line-height: 64px;
-    font-size: 56px;
+    line-height: 120%;
+    font-size: 40px;
     font-style: normal;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .hero-text {
     text-align: left;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 48px;
-    margin: 20px 0;
+    font-size: 30px;
+    line-height: 120%;
+    margin: 10px 0;
     max-width: 510px;
 }
 
@@ -44,8 +46,8 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 24px;
-    margin-top: 28px;
-    margin-bottom: 8px;
+    margin-top: 14px;
+    margin-bottom: 4px;
 }
 
 .hero-title {
@@ -57,7 +59,9 @@
 }
 
 .hero-btn {
-    margin-top: 56px;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
     background-color: #fff;
     font-size: 15px;
     border-image-source: linear-gradient(90deg, #00C2FF, #FF27C3);
@@ -70,14 +74,14 @@
 }
 
 .hero-img {
-    grid-column: 2/12;
+    grid-column: 3/11;
     align-self: center;
     justify-self: center;
     width: 100%;
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
     .hero-breadcrumb {
         margin-top: 24px;
         padding: 0 80px;
@@ -98,5 +102,29 @@
 
     .hero-img{
         grid-column: 6/13;
+    }
+
+    .hero-header {
+        line-height: 64px;
+        font-size: 56px;
+        margin: 20px 0;
+    }
+    
+    .hero-text {
+        font-size: 40px;
+        line-height: 48px;
+        margin: 20px 0;
+        max-width: 510px;
+    }
+    
+    .hero-name {
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 28px;
+        margin-bottom: 8px;
+    }
+
+    .hero-btn {
+        margin-top: 56px;
     }
 }

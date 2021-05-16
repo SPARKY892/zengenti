@@ -1,11 +1,32 @@
 .card-container {
     padding: 0 5%;
+    margin-top: 50px;
 }
 
 .card-top-row-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.card1-container {
+    width: 50%;
+    height: fit-content;
+}
+
+.card1-image {
+    width: 100%;
+    height: 100%;
+}
+
+.card2-container {
+    width: 40%;
+    height: fit-content;
+}
+
+.card2-image {
+    width: 100%;
+    height: 100%;
 }
 
 .card-bottom-row-container {
@@ -16,7 +37,7 @@
 
 .card-overlay {
     position: relative;
-    top: -108px;
+    top: -50px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -46,14 +67,19 @@
     height: 72px;
 }
 
+@media screen and (min-width: 768px) {
+
+}
+
 @media screen and (min-width: 1024px) {
     .card-container {
         padding: 0 80px;
+        margin-top: 60px;
     }
 
     .card1-container {
         width: 50%;
-        height: 450px;
+        height: fit-content;
     }
 
     .card1-image {
@@ -62,11 +88,17 @@
 
     .card2-container {
         width: 40%;
-        height: 450px;
+        height: fit-content;
     }
 
     .card2-image {
         width: 100%;
+    }
+
+    .card-overlay {
+        top: -88px;
+        width: 400px;
+        height: 168px;
     }
 }
 
@@ -92,12 +124,6 @@
     .card2-container {
         height: 584px;
         width: 510px;
-    }
-
-    .card-overlay {
-        top: -108px;
-        width: 400px;
-        height: 168px;
     }
 
     .card1-image {
