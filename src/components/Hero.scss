@@ -57,10 +57,13 @@
 }
 
 .hero-btn {
-    padding: 15px 10px;
-    background-color: white;
-    font-size: 15px;
     margin-top: 56px;
+    background-color: #fff;
+    font-size: 15px;
+    border-image-source: linear-gradient(90deg, #00C2FF, #FF27C3);
+    border-image-slice: 1;
+    border-width: 1px;
+    background-color: transparent;
 }
 
 .hero-img {

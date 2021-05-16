@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import HeaderLogo from '../images/logo.svg';
+import SearchIcon from '../images/search.svg';
 import './Header.scss';
 
 const Header = () => {
@@ -10,9 +11,10 @@ const Header = () => {
             <img src={HeaderLogo} className="header-logo" />
             <div className={menuActive ? 'nav-container active' : 'nav-container'}>
                 <div className="nav-item-container">
-                    <a className="nav-item">Study</a>
-                    <a className="nav-item">Research</a>
-                    <a className="nav-item">About Us</a>
+                    <a className="nav-item"><h5>Study</h5></a>
+                    <a className="nav-item"><h5>Research</h5></a>
+                    <a className="nav-item"><h5>About Us</h5></a>
+                    <img src={SearchIcon} className="nav-item nav-search" />
                 </div>
             </div>
             <div className="nav-menu-icon" onClick={() => {setMenuActive(!menuActive)}}>

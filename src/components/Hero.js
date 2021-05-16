@@ -12,7 +12,7 @@ const Hero = () => {
                     <h3 className="hero-text">There is so much going on at Ludlow University, both on and off campus.</h3>
                     <h4 className="hero-name">Lisa Smith</h4>
                     <p className="hero-title">Student, BSc (Hons) Computer Games Design</p>
-                    <button className="hero-btn">View student stories</button>
+                    <button className="hero-btn"><h5>View student stories</h5></button>
                 </div>
                 <HeroImage className="hero-img" />
             </div>

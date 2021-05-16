@@ -60,6 +60,9 @@
     cursor: pointer;
 }
 
+h5 {
+  margin: 0;
+}
 
 @media screen and (min-width: 960px) {
   .nav-menu-icon {
@@ -81,10 +84,17 @@
   .nav-item-container {
     display: flex;
     margin-top: 0;
+    height: 24px;
   }
   
   .nav-item {
     margin-top: 0;
     padding: 0 20px;
+  }
+
+  .nav-item.nav-search {
+    padding-right: 0;
+    height: 24px;
+    width: 24px;
   }
 } 

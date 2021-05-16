@@ -4,9 +4,13 @@
     align-items: center;
 }
 
-.upcoming-button {
+.upcoming-btn {
     width: 290px;
     height: 64px;
+    border-image-source: linear-gradient(90deg, #00C2FF, #FF27C3);
+    border-image-slice: 1;
+    border-width: 1px;
+    background-color: transparent;
 }
 
 .upcoming-sub-container {

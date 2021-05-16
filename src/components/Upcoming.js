@@ -10,7 +10,7 @@ const Upcoming = () => {
             <div className="upcoming-container">
                 <div className="upcoming-header-container">
                     <h3 className="upcoming-header">Upcoming events</h3>
-                    <button className="upcoming-button">View all events</button>
+                    <button className="upcoming-btn"><h5>View all events</h5></button>
                 </div>
                 <div className="upcoming-sub-container">
                     <div className="upcoming-event-container">
