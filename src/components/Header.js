@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {ReactComponent as HeaderLogo} from '../images/logo.svg';
+import HeaderLogo from '../images/logo.svg';
 import './Header.scss';
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
         <div className="header-container">
-            <HeaderLogo className="header-logo" />
+            <img src={HeaderLogo} className="header-logo" />
             <div className={menuActive ? 'nav-container active' : 'nav-container'}>
                 <div className="nav-item-container">
                     <a className="nav-item">Study</a>
